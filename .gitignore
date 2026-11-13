@@ -1,0 +1,21 @@
+# Local AI skills and development tools
+/.agents/
+/.vscode/
+/.idea/
+/node_modules/
+/vendor/
+
+# User uploads stay on the local machine
+/uploads/*
+!/uploads/.htaccess
+!/uploads/.gitkeep
+
+# Local credentials, logs and temporary files
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
